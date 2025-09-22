@@ -1,0 +1,67 @@
+Slide 1: Title Slide
+Multi-Pollutant Profile Grouping of Air Quality Data Using K-Means Clustering
+________________________________________
+Slide 2: Presenter 1 – Introduction & Simple 2D Clustering
+Topic: Clustering cities using two pollutants: PM2.5 and PM10
+Dataset Focus: Sample of 10 cities with average PM2.5 and PM10 values from the global air quality dataset.
+Input Data & Code Summary:
+•	Manual K-Means clustering with K=2 clusters.
+•	Iterative centroid assignment and recalculation based on Euclidean distance in 2D.
+•	Visualized clusters with scatter plot showing city groups and centroid locations.
+Conclusion from Clustered Graph:
+The graph reveals two separate groups—one with higher pollution and one cleaner cluster—demonstrating a clear distinction even with two features. This sets the foundation for more complex multi-feature clustering analyses.
+________________________________________
+Slide 3: Presenter 2 – Country-Level Clustering by Average AQI
+Topic: Grouping countries by average AQI into Low, Medium, and High pollution clusters
+Dataset Focus: 6 countries’ average AQI extracted from the dataset.
+Input Data & Code Summary:
+•	1D K-Means clustering with K=3 on AQI values.
+•	Distance calculated as absolute difference; clusters assigned accordingly.
+•	Cluster formation shown on a scatter plot along the AQI axis.
+Conclusion from Clustered Graph:
+Distinct partitions indicate national-level air quality differences. This clustering enables policymakers to focus resources on high-risk nations by identifying the pollution severity category.
+________________________________________
+Slide 4: Presenter 3 – City-Level AQI Clustering
+Topic: Clustering 8 cities based on AQI alone
+Dataset Focus: AQI values for 8 cities in the dataset.
+Input Data & Code Summary:
+•	K=3 clusters created using manual assignment and centroid updates.
+•	Output is primarily textual showing which cities belong to which AQI-based cluster.
+Conclusion from Clustering:
+Clusters effectively group cities by similar pollution levels, enabling identification of local pollution discrepancies and facilitating targeted urban pollution management.
+________________________________________
+Slide 5: Presenter 4 – City-Level Clustering with Two Pollutants (PM2.5 and NO2)
+Topic: Multi-feature clustering for 8 cities using PM2.5 and NO2
+Dataset Focus: Average PM2.5 and NO2 for 8 cities in the dataset.
+Input Data & Code Summary:
+•	Manual K-Means with K=3 clusters, showing centroid location change each iteration.
+•	2D scatter plots illustrating the clustering and centroid movements at each iteration.
+Conclusion from Clustered Graph:
+Clusters capture pollutant-compositional diversity among cities. Iterative centroid updates provide insight into how clustering converges on meaningful groupings in multi-dimensional space.
+________________________________________
+Slide 6: Presenter 5 – Multi-Feature Clustering with Three Pollutants
+Topic: Clustering of 7 cities using PM2.5, PM10, and NO2
+Dataset Focus: Multi-pollutant averages from 7 cities in the dataset.
+Input Data & Code Summary:
+•	Manual K-Means with K=2 clusters over three features.
+•	Multi-dimensional Euclidean distance used for cluster formation.
+•	Cluster results printed showing clear groups based on combined pollutant profiles.
+Conclusion from Clustering:
+Multi-pollutant analysis yields comprehensive pollution profiles, better capturing complexity of air quality. Clustering distinguishes cleaner vs. more polluted groups for multilayered health and environmental assessments.
+________________________________________
+Slide 7: Summary & Overall Conclusions
+•	Summary:
+•	Person 1 demonstrated basic 2D pollution clustering.
+•	Person 2 expanded to country AQI grouping.
+•	Person 3 applied AQI-only city clustering.
+•	Person 4 introduced multi-feature clustering with 2 pollutants.
+•	Person 5 completed the analysis using 3 pollutants for richer profiles.
+•	Overall Conclusion:
+Multi-pollutant K-Means clustering on air quality data enables insightful identification of pollution patterns across scales—from urban to country levels. It supports health risk evaluation, resource allocation, and environmental policymaking by uncovering complex pollutant mixtures and their spatial distributions.
+•	Future Scope:
+•	Incorporate temporal/seasonal data for dynamic clustering insights.
+•	Integrate socio-economic or weather data to enrich cluster interpretations.
+•	Compare clustering methods for improved air quality grouping.
+________________________________________
+This slide-wise layout provides coherent flow and clear linkage between dataset focus, methodology, code execution, and conclusions across all presenters on the central multi-pollutant clustering theme. This will help your team deliver a structured, impactful presentation.
+
